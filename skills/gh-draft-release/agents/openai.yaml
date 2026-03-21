@@ -1,0 +1,4 @@
+interface:
+  display_name: "Draft GitHub Release"
+  short_description: "Draft user-facing GitHub releases"
+  default_prompt: "Use $gh-draft-release to draft the next GitHub release from this repo."

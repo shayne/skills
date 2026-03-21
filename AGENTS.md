@@ -1,7 +1,7 @@
 # Repository Guidelines
 
 ## Project Structure & Module Organization
-This repository is a collection of reusable Codex skills. Each skill lives under `skills/<skill-name>/` and must expose a top-level `SKILL.md`. Keep supporting material next to the skill that uses it: Python helpers in `scripts/`, reference docs in `references/`, tests in `tests/`, and agent metadata in `agents/` when needed. Root files such as `README.md` and this guide document repository-wide conventions.
+This repository is a collection of reusable Codex skills. Each skill lives under `skills/<skill-name>/` and must expose a top-level `SKILL.md`. Keep supporting material next to the skill that uses it: Python helpers in `scripts/`, reference docs in `references/`, tests in `tests/`, and agent metadata in `agents/openai.yaml` when needed. Root files such as `README.md` and this guide document repository-wide conventions.
 
 ## Build, Test, and Development Commands
 There is no global build step. Work from the repository root and validate the specific skill you changed.
