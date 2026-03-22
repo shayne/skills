@@ -6,11 +6,13 @@ This repo contains reusable Codex skills. Each skill lives in `skills/<skill-nam
 - `apple-notes` - Read, search, create, update, delete, organize, and move content in local Apple Notes on macOS through tested helper scripts.
 - `crossword-solver` - Solve crossword puzzles in .puz format using the cursewords terminal app. Use when asked to open, navigate, solve, check, or fill crossword grids in cursewords, or when clues need to be listed/parsed from a .puz file.
 - `gh-draft-release` - Draft a user-facing GitHub release for an explicit version or a patch, minor, or major bump request.
+- `install-system-package` - Declaratively install missing or useful packages on macOS hosts managed by nix-darwin, preferring Nix packages first and confirming scope before editing config.
 - `terminal-controller` - Programmatically control tmux sessions and panes: create sessions/windows, send keys/text, capture pane output, resize to client dimensions, and stream pane output. Use when asked to automate or interact with terminal sessions via tmux.
 
 Example prompts:
 - `use $apple-notes to move my meeting notes into the Projects/Planning folder`
 - `use $gh-draft-release to prepare the next patch release draft`
+- `use $install-system-package to add ripgrep declaratively on this Mac`
 - `use $terminal-controller and $crossword-solver to solve the puz file`
 
 ## Install in Codex

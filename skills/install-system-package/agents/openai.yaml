@@ -1,0 +1,4 @@
+interface:
+  display_name: "Install System Package"
+  short_description: "Declaratively install nix-darwin packages"
+  default_prompt: "Use $install-system-package to add a tool declaratively through ~/nixos-config."
