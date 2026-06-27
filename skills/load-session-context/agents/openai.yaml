@@ -1,0 +1,4 @@
+interface:
+  display_name: "Load Session Context"
+  short_description: "Restore usable context from Codex sessions"
+  default_prompt: "Use $load-session-context to restore usable context from a prior Codex session id."
